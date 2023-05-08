@@ -24,7 +24,7 @@ Django:
 
     pip freeze
     pip freeze > requirements.txt
-
+    pip install -r requirements.txt
 
     django command:
     python manage.py makemigrations
